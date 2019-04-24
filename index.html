@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>CyberCup</title>
+
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="./assets/css/landing.css">
+
+        <script src="./assets/js/jquery-3.4.0.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+
+        <meta name="viewport" content="width=1400, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="content">
+            <header></header>
+            <main></main>
+            <article></article>
+            <footer></footer>
+        </div>
+        
+
+        <script>
+            $(document).ready(function(){
+                $("header").load( "components/header.html" );
+                $("main").load( "components/main.html" );
+                $("article").load( "components/article.html" );
+                $("footer").load( "components/footer.html" );
+            })
+        </script>
+
+    </body>
+</html>
